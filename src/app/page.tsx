@@ -1,16 +1,17 @@
 import Navigation from '@/components/Navigation'
 import { Badge } from '@/components/ui/badge'
+import Image from 'next/image'
 import { Card, CardContent } from '@/components/ui/card'
-import { 
-  Mail, 
-  Phone, 
-  Linkedin, 
-  Code2, 
-  Palette, 
-  GraduationCap, 
-  Briefcase, 
-  Award, 
-  Globe, 
+import {
+  Mail,
+  Phone,
+  Linkedin,
+  Code2,
+  Palette,
+  GraduationCap,
+  Briefcase,
+  Award,
+  Globe,
   Calendar,
   MapPin,
   ExternalLink,
@@ -24,7 +25,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section id="hero" className="relative min-h-[90vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
         {/* Animated background elements */}
@@ -33,27 +34,27 @@ export default function Home() {
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/5 rounded-full blur-3xl animate-pulse delay-1000"></div>
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:40px_40px]"></div>
         </div>
-        
+
         <div className="max-w-5xl mx-auto text-center space-y-8">
           <div className="space-y-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-4">
               <Sparkles className="w-4 h-4" />
               <span>Open to Opportunities</span>
             </div>
-            
+
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight">
               <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
                 Siripireddy Bhavana Reddy
               </span>
             </h1>
-            
+
             <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground font-medium">
               Aspiring Software Engineer
             </p>
           </div>
 
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Highly motivated B.Tech CSE candidate (CGPA 6.5) proficient in <span className="text-primary font-semibold">Java, C, and Python</span>. 
+            Highly motivated B.Tech CSE candidate (CGPA 6.5) proficient in <span className="text-primary font-semibold">Java, C, and Python</span>.
             Combines a practical mindset for process optimization with foundational experience in front-end research and technical content generation.
           </p>
 
@@ -90,7 +91,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-semibold">Education</h3>
                 </div>
-                
+
                 <div className="space-y-6">
                   <div className="space-y-2 border-l-2 border-primary pl-4">
                     <div className="flex items-start justify-between gap-2 flex-wrap">
@@ -100,7 +101,7 @@ export default function Home() {
                     <p className="text-sm text-muted-foreground">Manav Rachna University</p>
                     <p className="text-sm text-primary font-medium">CGPA: 6.5 (till 4th semester)</p>
                   </div>
-                  
+
                   <div className="space-y-2 border-l-2 border-accent pl-4">
                     <div className="flex items-start justify-between gap-2 flex-wrap">
                       <p className="font-semibold text-foreground">11th - 12th Standard (MPC)</p>
@@ -109,7 +110,7 @@ export default function Home() {
                     <p className="text-sm text-muted-foreground">Sri Chaitanya Junior College</p>
                     <p className="text-sm text-accent font-medium">Score: 80%</p>
                   </div>
-                  
+
                   <div className="space-y-2 border-l-2 border-muted-foreground pl-4">
                     <div className="flex items-start justify-between gap-2 flex-wrap">
                       <p className="font-semibold text-foreground">10th Standard</p>
@@ -131,7 +132,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-semibold">Languages</h3>
                 </div>
-                
+
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <span className="text-foreground font-medium">Telugu</span>
@@ -175,7 +176,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-semibold">Technical Skills</h3>
                 </div>
-                
+
                 <div className="space-y-4">
                   <div>
                     <p className="text-sm text-muted-foreground mb-3 font-medium">Programming Languages</p>
@@ -208,7 +209,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-semibold">Design & UX</h3>
                 </div>
-                
+
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline" className="px-3 py-1 border-accent/50 text-accent hover:bg-accent/10">
                     Prototyping Tools
@@ -240,7 +241,7 @@ export default function Home() {
           <div className="relative">
             {/* Timeline line */}
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-accent to-primary"></div>
-            
+
             <div className="space-y-8 relative">
               {/* Internship */}
               <Card className="ml-20 border-border/50 hover:border-primary/50 transition-colors">
@@ -248,7 +249,7 @@ export default function Home() {
                   <div className="absolute -left-12 top-6 w-8 h-8 rounded-full bg-primary flex items-center justify-center">
                     <Briefcase className="w-4 h-4 text-primary-foreground" />
                   </div>
-                  
+
                   <div className="flex items-start justify-between flex-wrap gap-2 mb-4">
                     <div>
                       <h3 className="text-xl font-semibold text-foreground">Front End Developer & Research Intern</h3>
@@ -259,7 +260,7 @@ export default function Home() {
                       <span>Jun 2025 - Aug 2025</span>
                     </div>
                   </div>
-                  
+
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <span className="text-primary mt-1">•</span>
@@ -323,7 +324,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-semibold">Certifications</h3>
                 </div>
-                
+
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                     <div className="w-2 h-2 rounded-full bg-primary"></div>
@@ -350,7 +351,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-semibold">Awards</h3>
                 </div>
-                
+
                 <Card className="bg-gradient-to-br from-accent/10 to-primary/10 border-accent/20">
                   <CardContent className="pt-6">
                     <div className="flex items-start gap-4">
@@ -368,91 +369,79 @@ export default function Home() {
                   </CardContent>
                 </Card>
               </CardContent>
-            </Card>
+
+              <div className="grid sm:grid-cols-2 gap-6 mb-12">
+                {/* Email */}
+                <Card className="border-border/50 hover:border-primary/50 transition-colors group">
+                  <CardContent className="pt-6">
+                    <a href="mailto:your.email@example.com" className="flex items-center gap-4">
+                      <div className="p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                        <Mail className="w-6 h-6 text-primary" />
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-sm text-muted-foreground">Email</p>
+                        <p className="font-medium text-foreground">[Your Email]</p>
+                      </div>
+                      <ExternalLink className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                  </CardContent>
+                </Card>
+
+                {/* Phone */}
+                <Card className="border-border/50 hover:border-accent/50 transition-colors group">
+                  <CardContent className="pt-6">
+                    <a href="tel:7207893400" className="flex items-center gap-4">
+                      <div className="p-3 rounded-lg bg-accent/10 group-hover:bg-accent/20 transition-colors">
+                        <Phone className="w-6 h-6 text-accent" />
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-sm text-muted-foreground">Phone</p>
+                        <p className="font-medium text-foreground">+91 7207893400</p>
+                      </div>
+                      <ExternalLink className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                  </CardContent>
+                </Card>
+
+                {/* LinkedIn */}
+                <Card className="border-border/50 hover:border-primary/50 transition-colors group">
+                  <CardContent className="pt-6">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
+                      <div className="p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                        <Linkedin className="w-6 h-6 text-primary" />
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-sm text-muted-foreground">LinkedIn</p>
+                        <p className="font-medium text-foreground">[Your LinkedIn]</p>
+                      </div>
+                      <ExternalLink className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                  </CardContent>
+                </Card>
+
+                {/* Location */}
+                <Card className="border-border/50 hover:border-accent/50 transition-colors">
+                  <CardContent className="pt-6">
+                    <div className="flex items-center gap-4">
+                      <div className="p-3 rounded-lg bg-accent/10">
+                        <MapPin className="w-6 h-6 text-accent" />
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-sm text-muted-foreground">Location</p>
+                        <p className="font-medium text-foreground">India</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+
+              {/* Footer */}
+              <div className="text-center pt-8 border-t border-border">
+                <p className="text-muted-foreground text-sm">
+                  © 2025 Siripireddy Bhavana Reddy. Built with Next.js & Tailwind CSS
+                </p>
+              </div>
           </div>
-        </div>
-      </section>
-
-      {/* Contact/Footer Section */}
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 border-t border-border">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Let's Connect</h2>
-            <p className="text-muted-foreground">Open to opportunities and collaborations</p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 gap-6 mb-12">
-            {/* Email */}
-            <Card className="border-border/50 hover:border-primary/50 transition-colors group">
-              <CardContent className="pt-6">
-                <a href="mailto:your.email@example.com" className="flex items-center gap-4">
-                  <div className="p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
-                    <Mail className="w-6 h-6 text-primary" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium text-foreground">[Your Email]</p>
-                  </div>
-                  <ExternalLink className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              </CardContent>
-            </Card>
-
-            {/* Phone */}
-            <Card className="border-border/50 hover:border-accent/50 transition-colors group">
-              <CardContent className="pt-6">
-                <a href="tel:7207893400" className="flex items-center gap-4">
-                  <div className="p-3 rounded-lg bg-accent/10 group-hover:bg-accent/20 transition-colors">
-                    <Phone className="w-6 h-6 text-accent" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-muted-foreground">Phone</p>
-                    <p className="font-medium text-foreground">+91 7207893400</p>
-                  </div>
-                  <ExternalLink className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              </CardContent>
-            </Card>
-
-            {/* LinkedIn */}
-            <Card className="border-border/50 hover:border-primary/50 transition-colors group">
-              <CardContent className="pt-6">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
-                  <div className="p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
-                    <Linkedin className="w-6 h-6 text-primary" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-muted-foreground">LinkedIn</p>
-                    <p className="font-medium text-foreground">[Your LinkedIn]</p>
-                  </div>
-                  <ExternalLink className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              </CardContent>
-            </Card>
-
-            {/* Location */}
-            <Card className="border-border/50 hover:border-accent/50 transition-colors">
-              <CardContent className="pt-6">
-                <div className="flex items-center gap-4">
-                  <div className="p-3 rounded-lg bg-accent/10">
-                    <MapPin className="w-6 h-6 text-accent" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-muted-foreground">Location</p>
-                    <p className="font-medium text-foreground">India</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* Footer */}
-          <div className="text-center pt-8 border-t border-border">
-            <p className="text-muted-foreground text-sm">
-              © 2025 Siripireddy Bhavana Reddy. Built with Next.js & Tailwind CSS
-            </p>
-          </div>
-        </div>
       </section>
     </div>
   )
